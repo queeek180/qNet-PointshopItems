@@ -1,5 +1,5 @@
 ITEM.Name = 'Reimu'
-ITEM.Price = 5000
+ITEM.Price = 0
 ITEM.Model = 'models/player/reimu_hakurei_bikini.mdl'
 ITEM.SubCategory = "Anime"
 
@@ -15,6 +15,14 @@ function ITEM:OnHolster(ply)
 	if ply._OldModel then
 		ply:SetModel(ply._OldModel)
 	end
+end
+
+function ITEM:CanPlayerBuy(ply)
+    return false
+end
+
+function ITEM:CanPlayerSell(ply)
+    return false
 end
 
 function ITEM:PlayerSetModel(ply)

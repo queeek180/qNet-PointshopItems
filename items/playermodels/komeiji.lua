@@ -1,4 +1,4 @@
-ITEM.Name = 'Komeiji'
+ITEM.Name = 'Koishi'
 ITEM.Price = 5000
 ITEM.Model = 'models/koishi/koishi_pm.mdl'
 ITEM.SubCategory = "Anime"

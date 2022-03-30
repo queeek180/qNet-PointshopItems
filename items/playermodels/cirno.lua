@@ -1,5 +1,5 @@
 ITEM.Name = 'Cirno'
-ITEM.Price = 5000
+ITEM.Price = 10000
 ITEM.Model = 'models/player/cirno/cirno_player.mdl'
 ITEM.SubCategory = "Anime"
 
